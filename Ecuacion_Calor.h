@@ -14,6 +14,10 @@
 #ifndef ECUACION_CALOR_H
 #define ECUACION_CALOR_H
 
+#include "Factorizacion.h"
+#include "Tools.hpp"
+
+void solveEC(vector <double> x, double Q, double K, double phi_0, double phi_n, double n, double L );
 
 
 #endif /* ECUACION_CALOR_H */

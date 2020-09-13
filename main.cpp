@@ -13,6 +13,7 @@
 
 #include <cstdlib>
 #include "Factorizacion.h"
+#include "Ecuacion_Calor.h"
 #include "Tools.hpp"
 using namespace std;
 
@@ -77,9 +78,15 @@ void ejercicio3(){
     cout << M << endl;
 }
 
+void ejercicio4(){
+    
+    vector <double> x;
+    x.assign(3, 0.0);
+    solveEC(x, 3, 5, 10, 20, 4, 1);
+}
 
 int main(int argc, char** argv) {
-    ejercicio2();
+    ejercicio4();
     return 0;
 }
 
